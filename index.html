@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expression Validation App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-4">Expression Validation App</h1>
+
+        <div class="btn-group">
+            <button class="btn btn-primary flex-fill" id="email">Email</button>
+            <button class="btn btn-primary flex-fill" id="mobile-number">Mobile Number</button>
+            <button class="btn btn-primary flex-fill" id="post-code">Post Code</button>
+        </div>
+
+        <form id="form">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Enter your input here">
+            </div>
+            <button type="submit" class="btn btn-primary btn-block" id="submit-btn">Submit</button>
+        </form>
+
+        <div class="mt-3">
+            <div class="alert alert-success" role="alert">
+                <h4 class="alert-heading">Well done!</h4>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
